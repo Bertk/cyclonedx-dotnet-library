@@ -3,9 +3,9 @@
   <PropertyGroup>
     <!-- MSBuild Reserved and Well-Known Properties https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-reserved-and-well-known-properties -->
 
-    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <!--<RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
-    <UpdateAssemblyInfo>true</UpdateAssemblyInfo>
+    <UpdateAssemblyInfo>true</UpdateAssemblyInfo>-->
 
     <!-- use command "dotnet new globaljson" for local develpment environment -->
     
@@ -14,7 +14,7 @@
     <AnalysisMode>AllEnableByDefault</AnalysisMode>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
@@ -28,7 +28,7 @@
 
   <PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
-  </PropertyGroup>
+  </PropertyGroup>-->
 
   <PropertyGroup>
     <!-- <SignAssembly>false</SignAssembly> -->

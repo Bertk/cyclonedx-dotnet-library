@@ -6,6 +6,7 @@
     <Description>A .NET Standard library for serializing and deserializing JSON format CycloneDX bill-of-material documents.</Description>
     <PackageId>CycloneDX.Json</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RuntimeIdentifiers>win;linux;osx</RuntimeIdentifiers>
   </PropertyGroup>
 
   <ItemGroup>

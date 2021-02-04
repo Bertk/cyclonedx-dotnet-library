@@ -1,0 +1,8 @@
+@coderpatros Could you please check the permissions this repository. I can locally execute the unit tests on Windows 10 without any error.
+
+```
+  Failed CycloneDX.Json.Tests.Tests.JsonRoundTripTest_v1_2(filename: "valid-component-types") [16 ms]
+  Error Message:
+   System.UnauthorizedAccessException : Access to the path '/_/CycloneDX.Json.Tests/__snapshots__' is denied.
+---- System.IO.IOException : Permission denied
+```

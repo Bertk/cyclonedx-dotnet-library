@@ -6,6 +6,7 @@
     <Description>A .NET Standard library of data models for CycloneDX bill-of-material documents.</Description>
     <PackageId>CycloneDX.Models</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RuntimeIdentifiers>win;linux;osx</RuntimeIdentifiers>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
-
+    <RuntimeIdentifiers>win;linux;osx</RuntimeIdentifiers>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -25,8 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Resources\**" CopyToOutputDirectory="Always" />
-    <Content Include="__snapshots__\**" CopyToOutputDirectory="Always" />
+    <Content Include="Resources/**" CopyToOutputDirectory="Always" />
+    <Content Include="__snapshots__/**" CopyToOutputDirectory="Always" />
   </ItemGroup>
 
   <ItemGroup>
